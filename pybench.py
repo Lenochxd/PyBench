@@ -14,7 +14,7 @@ for _ in range(100000000):
 end_time = time.perf_counter()
 
 execution_time = end_time - start_time
-score = (100 / execution_time)*700
+score = 100 / execution_time*700
 
 print("Done!\n")
 print("Operations   : 100000000")
