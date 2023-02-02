@@ -14,11 +14,11 @@ for _ in range(100000000):
 end_time = time.perf_counter()
 
 execution_time = end_time - start_time
-score = 100 / execution_time*700
+score = 100 / execution_time * 400
 
 print("Done!\n")
 print("Operations   : 100000000")
-print("Time         :", execution_time, "s")
-print("Operations/s :", 100000000/execution_time)
-print("Score        :", score)
+print(f"Time         : {round(execution_time, 3)}s")
+print(f"Operations/s : {round(100000000/execution_time, 3)}")
+print(f"Score        : {round(score, 3)}")
 print("\n--------------------------------")
