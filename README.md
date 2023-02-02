@@ -8,3 +8,6 @@ This tool generates a random image, a graph, and 100,000,000 digits of Pi to gau
 1. Make sure to have [python](https://www.python.org/downloads/ "install python here") installed
 2. `pip install -r requirements.txt`
 3. `python PyBench.py`
+
+### Note
+The file "NUMWORKS-PyBench_operations-only.py" is a version compatible with Numworks calculators and provides equal scores as other versions, despite having fewer operations to perform.
