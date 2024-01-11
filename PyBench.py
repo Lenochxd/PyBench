@@ -70,7 +70,7 @@ print(
       "Done!\n"
       "\n"
       "\n== Image Generation =="
-      "\nSize         : 300x300"
+      "\nSize         : 900x900"
       f"\nTime         : {round(image_gen_time, 3)}s"
       f"\nScore        : {round(score1, 3)}"
       "\n"
