@@ -14,8 +14,11 @@ def generate_random_image(width, height):
     pixels = image.load()
     for i in range(width):
         for j in range(height):
-            pixels[i, j] = (np.random.randint(0, 255), np.random.randint(
-                0, 255), np.random.randint(0, 255))
+            pixels[i, j] = (
+                np.random.randint(0, 255),
+                np.random.randint(0, 255),
+                np.random.randint(0, 255)
+            )
     return image
 
 start_time = time.perf_counter()
